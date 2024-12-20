@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class demo9 {
+
+	public static void main(String[] args) {
+		// integer to Roman
+		
+	Scanner sc = new Scanner(System.in);
+	System.out.println("enter a number");
+	String Inum = sc.next();
+	
+	
+	if(Inum == 1) {
+		System.out.println("I");
+	}
+
+
+	}
+
+}

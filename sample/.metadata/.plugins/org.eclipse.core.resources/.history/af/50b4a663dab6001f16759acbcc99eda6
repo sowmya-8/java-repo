@@ -1,0 +1,16 @@
+package firstloop;
+
+public class firstloop {
+
+	public static void main(String[] args) {
+		int n = 8097,rem,nn =0;
+		while(n != 0) {
+			rem = n % 100;
+			nn = nn*100+rem;
+			System.out.println(rem);
+			n = n/100;
+		}
+		System.out.println("reverse number--->"+nn);
+	}
+
+}

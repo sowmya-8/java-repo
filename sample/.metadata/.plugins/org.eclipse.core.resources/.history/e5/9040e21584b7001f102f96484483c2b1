@@ -1,0 +1,16 @@
+package replaceNo;
+
+public class oneloop {
+
+	public static void main(String[] args) {
+		//print 2 times hello
+		//print 3 times hyd
+		//print 5 times welcome
+		//in a single loop
+		int i=0;
+		for(i=0;i<=2;i++){
+			System.out.println("hello");
+		}
+	}
+
+}

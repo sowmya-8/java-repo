@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class demo8 {
+
+	public static void main(String[] args) {
+		
+		//convert the lower case letters into upper case and upper case letters into lower case
+		//sOmU--->SoMu
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter a random name which consists of lower charaters and upper characters");
+		String input = sc.next();
+        String result = convertString(input);
+        System.out.println(result);
+    }
+
+    public static String convertString(String input) {
+        // Check if the string is not empty and has the correct length
+        if (input != null && input.length() == 4) {
+            // Convert the first character to upper case and the last character to lower case
+            return input.substring(0, 1).toUpperCase() + 
+                   input.substring(1, 2) + 
+                   input.substring(2, 3).toUpperCase() + 
+                   input.substring(3).toLowerCase();
+        } else {
+            return input; // If the string is not as expected, return it as is
+        }
+	}
+
+}

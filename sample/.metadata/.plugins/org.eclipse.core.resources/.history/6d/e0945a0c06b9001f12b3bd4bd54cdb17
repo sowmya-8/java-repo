@@ -1,0 +1,25 @@
+
+public class demo81 {
+
+	public static void main(String[] args) {
+		String input = "SowMYa!"; // Example input
+        StringBuilder output = new StringBuilder();
+        
+        for (int i = 0; i < input.length(); i++) {
+            char ch = input.charAt(i);
+            if (Character.isLowerCase(ch)) {
+                output.append(Character.toUpperCase(ch));
+            } else if (Character.isUpperCase(ch)) {
+                output.append(Character.toLowerCase(ch));
+            } else {
+                output.append(ch); // Non-alphabet characters remain unchanged
+            }
+        }
+        
+        System.out.println(output.toString());
+    }
+
+
+	}
+
+

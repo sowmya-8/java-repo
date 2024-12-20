@@ -1,0 +1,29 @@
+
+public class demo81 {
+
+	public static void main(String[] args) {
+		String input = "HeLLo WoRLd";
+        char[] characters = input.toCharArray();  // Convert string to char array
+        
+        for (int i = 0; i < characters.length; i++) {
+            char ch = characters[i];
+            
+            // Check if character is between 'a' and 'z' (lowercase letter)
+            if (ch >= 'a' && ch <= 'z') {
+                // Convert to uppercase by subtracting the difference between 'a' and 'A'
+                characters[i] = (char) (ch - ('a' - 'A'));
+            }
+            // Check if character is between 'A' and 'Z' (uppercase letter)
+            else if (ch >= 'A' && ch <= 'Z') {
+                // Convert to lowercase by adding the difference between 'a' and 'A'
+                characters[i] = (char) (ch + ('a' - 'A'));
+    }
+        }
+	}
+}
+        
+
+
+	
+
+

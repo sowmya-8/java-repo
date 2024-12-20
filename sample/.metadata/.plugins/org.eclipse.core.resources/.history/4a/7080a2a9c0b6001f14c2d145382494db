@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class data {
+
+	public static void main(String[] args) {
+		char ch;
+		Scanner num = new Scanner(System.in);
+		System.out.println("enter the value n : ");
+		int n = num.nextInt();
+		System.out.println("n is : ", +n);
+		
+}
+	
+}

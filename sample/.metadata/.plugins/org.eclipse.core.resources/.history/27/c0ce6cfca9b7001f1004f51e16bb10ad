@@ -1,0 +1,10 @@
+package replaceNo;
+
+public class MorePrimeNos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

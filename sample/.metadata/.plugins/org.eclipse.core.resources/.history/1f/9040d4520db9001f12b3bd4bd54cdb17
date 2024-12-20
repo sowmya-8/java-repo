@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class demo9 {
+
+	public static void main(String[] args) {
+		// Roman to integer
+		
+	Scanner sc = new Scanner(System.in);
+	System.out.println("enter a roman number");
+	String Rnum = sc.next();
+	
+	int I = 0;
+	if(1 == I);
+
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package firstloop;
+
+public class firstloop {
+
+	public static void main(String[] args) {
+		int n = 8917,rem,nn;
+		
+		int d = 1000;
+		
+		
+		while(1==1) {
+			rem = n/d;
+			n = n%d;
+			d = d/10;
+			
+			System.out.println(9);
+			
+		}
+		
+
+	}
+
+}

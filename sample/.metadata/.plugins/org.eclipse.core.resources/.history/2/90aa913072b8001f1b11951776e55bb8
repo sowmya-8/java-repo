@@ -1,0 +1,22 @@
+
+public class demo7 {
+
+	public static void main(String[] args) {
+		// changing the whole string into upper case
+		
+		String name = "somu";
+		
+		char ch = name.charAt(0);
+		int diff = (int)('d'-'D');
+		
+		diff = diff<0?-1 * diff:diff;
+		
+		if(ch >='a' && ch <='z') {
+			ch = (char)(ch -diff);
+		}
+		System.out.println(ch);
+
+
+	}
+
+}
